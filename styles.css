@@ -216,4 +216,10 @@ a.linkmail:hover {
       height: 300px;
       position: static;
     }
+    #img-1, #img-2 {
+      width: 80%;
+    }
+    #logo {
+      padding-top: 25%;
+    }
   }
