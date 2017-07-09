@@ -11,6 +11,7 @@ li a {
   margin-right: .4%;
   margin-left: .4%;
 }
+
 .link3 {
   margin-right: 3%;
 }
@@ -159,15 +160,21 @@ a.linkmail:hover {
     text-align: center;
     background-color: #EDEDED;
   }
+  /*********
+  Mobile Menu
+  *********/
+
 
   /*******
   ABOUT
   *******/
   #row2 {
     display: flex;
+
   }
   #row2 > div:first-child {
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
     height: calc(100vh - 2px);
     background-color: #84C49A;
@@ -192,7 +199,9 @@ a.linkmail:hover {
   Portfolio
   **********/
 
-
+#portfolio-img {
+  margin: 5%;
+}
 
   /**********
   Contact
@@ -223,3 +232,4 @@ a.linkmail:hover {
       padding-top: 25%;
     }
   }
+  
